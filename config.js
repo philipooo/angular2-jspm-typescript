@@ -23,7 +23,6 @@ System.config({
       "deps": [
         "reflect-metadata",
         "es6-shim",
-        "zone.js",
         "rxjs"
       ]
     }
