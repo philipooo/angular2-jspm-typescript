@@ -1,0 +1,25 @@
+{
+  "name": "angular2-jspm-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.18"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "es6-promise": "npm:es6-promise@^3.0.2",
+      "es6-shim": "npm:es6-shim@^0.33.3",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@5.0.0-beta.0",
+      "zone.js": "npm:zone.js@0.5.10"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.7.3"
+    }
+  }
+}

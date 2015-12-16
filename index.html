@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+
+    <app>Loading...</app>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('./boot.ts!typescript')
+        .then(null, console.error.bind(console));
+    </script>
+  </body>
+</html>
